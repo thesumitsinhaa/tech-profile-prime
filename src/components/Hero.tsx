@@ -65,6 +65,19 @@ const Hero = () => {
                 Contact Me
               </a>
             </Button>
+            <Button
+              variant="secondary"
+              size="lg"
+              className="gap-2 bg-white text-primary hover:bg-white/90 transition-all duration-300 hover:scale-105"
+              asChild
+            >
+              <a href="https://summitportfolio.blob.core.windows.net/portfolio/Sumit%20Sinha%202CV.pdf" target="_blank" rel="noopener noreferrer">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                </svg>
+                Resume
+              </a>
+            </Button>
           </div>
 
           <div className="pt-12">
